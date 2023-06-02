@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:0px; 
+    margin: 0px;
+    height: 100%; 
+    background-color:paleturquoise;
+}
+
+ul {
+  height: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0PX;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    margin-top: 5px;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 2px 16px; 
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:rgb(44, 39, 39);
+    border-color:paleturquoise;
+    color:paleturquoise;
+   border-radius: 5px;
+    padding: 5px;
+  }

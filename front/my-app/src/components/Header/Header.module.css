@@ -1,0 +1,39 @@
+.container{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5px;
+    margin:0px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding:0px;
+    margin: 0px;
+}
+.link1{
+    /* display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between; */
+    color:paleturquoise;
+    border-radius: 0%;
+}
+.click {
+    text-decoration: none;
+    color:rgb(44, 39, 39);
+    border-radius: 10%;
+    /* width: 50px; */
+    background: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .click:hover {
+    background:paleturquoise;
+    color:black;
+  }
